@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="642371" started-at="2022-04-27T15:16:30 IST" finished-at="2022-04-27T15:27:13 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.Login_TestRunner@134593bf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.MyAccount_Runner@5fcd892a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="642371" started-at="2022-04-27T15:16:30 IST" finished-at="2022-04-27T15:27:13 IST">
+      <class name="Runners.Login_TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners.Login_TestRunner@134593bf]" name="setUpClass" is-config="true" duration-ms="736" started-at="2022-04-27T15:16:31 IST" finished-at="2022-04-27T15:16:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45753c22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.Login_TestRunner@134593bf]" name="runScenario" duration-ms="109558" started-at="2022-04-27T15:16:31 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T15:18:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check login is successfully with valid credentails"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to login test functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.Login_TestRunner@134593bf]" name="runScenario" duration-ms="50663" started-at="2022-04-27T15:18:21 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T15:19:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check home page on broken images & broken urls"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to login test functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.Login_TestRunner@134593bf]" name="runScenario" duration-ms="49474" started-at="2022-04-27T15:19:11 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T15:20:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["check login/register page on broken images & broken urls"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to login test functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners.Login_TestRunner@134593bf]" name="tearDownClass" is-config="true" duration-ms="4121" started-at="2022-04-27T15:20:01 IST" finished-at="2022-04-27T15:20:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runners.Login_TestRunner -->
+      <class name="Runners.MyAccount_Runner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runners.MyAccount_Runner@5fcd892a]" name="setUpClass" is-config="true" duration-ms="187" started-at="2022-04-27T15:20:05 IST" finished-at="2022-04-27T15:20:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@45753c22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.MyAccount_Runner@5fcd892a]" name="runScenario" duration-ms="58668" started-at="2022-04-27T15:20:05 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T15:21:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Update my account page related info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to My account Page on Account Details functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.MyAccount_Runner@5fcd892a]" name="runScenario" duration-ms="51489" started-at="2022-04-27T15:21:04 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T15:21:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify My account page for billing address functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to My account Page on Address(billing/shipping) functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.MyAccount_Runner@5fcd892a]" name="runScenario" duration-ms="72232" started-at="2022-04-27T15:21:55 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T15:23:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify billing & Shipping address Edit(navigation) click functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to My account Page on Address(billing/shipping) functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.MyAccount_Runner@5fcd892a]" name="runScenario" duration-ms="51520" started-at="2022-04-27T15:23:08 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T15:23:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify billing address on by default country functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to My account Page on Address(billing/shipping) functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runners.MyAccount_Runner@5fcd892a]" name="runScenario" duration-ms="190412" started-at="2022-04-27T15:23:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-27T15:27:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify country dropdown functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature to My account Page on Address(billing/shipping) functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Runners.MyAccount_Runner@5fcd892a]" name="tearDownClass" is-config="true" duration-ms="3267" started-at="2022-04-27T15:27:10 IST" finished-at="2022-04-27T15:27:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runners.MyAccount_Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
